@@ -111,6 +111,7 @@ order:
 | exact | boolean | **Optional** | Specify whether the item string match will be exact match instead of substring.
 | href | string | **Optional** | Define the href for the sidebar link.
 | icon | string | **Optional** | Set the icon of the sidebar item.
+| open_new | boolean | **Optional** | Specify whether the link should open in a new browser window.
 | new_item | boolean | **Optional** | Set to true to create a new link in the sidebar. Using this option now makes `item`, `href`, and `icon` required.
 
 ## Exceptions
@@ -143,6 +144,7 @@ order:
     item: Server Controls
     href: /config/server_control
     icon: "mdi:server"
+    open_new: true
     bottom: true
 exceptions:
   - user: will
